@@ -1,0 +1,92 @@
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: #1f1029;
+}
+
+
+.naglowek {
+  background: linear-gradient(135deg, #eca6c2 0%, #581c87 55%, #711ab4 100%);
+  border: 2px solid #c084fc;
+}
+
+.ciekawostka-tekst {
+  color: #dadd17; 
+  font-weight: 500;
+}
+
+
+.karta-ksiazki {
+  border-radius: 18px;
+  background: #ffffff;
+  border: 2px solid #e9d5ff;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  overflow: hidden;
+}
+
+.karta-ksiazki:hover {
+  transform: translateY(-6px);
+  border-color: #c026d3;
+  box-shadow: 0 14px 28px rgba(88, 28, 135, 0.22) !important;
+}
+
+.pasek-karty {
+  height: 7px;
+  background: linear-gradient(90deg, #db2777, #7e22ce);
+}
+
+.odznaka-king {
+  background: #fdf2f8;
+  color: #9d174d;
+  border: 1px solid #f472b6;
+  font-weight: 700;
+  padding: 0.4em 0.8em;
+  border-radius: 999px;
+}
+
+
+.tytul-ksiazki {
+  color: #7e22ce;
+  font-weight: 800;
+  font-size: 1.3rem;
+  letter-spacing: -0.2px;
+}
+
+.opis-ksiazki {
+  color: #2e1a3b;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+.panel-kontrast {
+  background: #ffffff;
+  border: 2px solid #e9d5ff;
+  border-radius: 18px;
+}
+
+.przycisk-rozowy {
+  background: linear-gradient(90deg, #dbbbc8, #6b21a8);
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.55rem 1.35rem;
+  transition: opacity 0.2s ease, transform 0.15s ease;
+}
+
+.przycisk-rozowy:hover {
+  opacity: 0.92;
+  color: #ffffff;
+  transform: scale(1.03);
+}
+
+.pole-szukaj-fiolet {
+  border: 2px solid #d8b4fe;
+  color: #1f1029;
+  font-weight: 500;
+}
+
+.pole-szukaj-fiolet:focus {
+  border-color: #9333ea;
+  box-shadow: 0 0 0 0.25rem rgba(147, 51, 234, 0.25);
+}
